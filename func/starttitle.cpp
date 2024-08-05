@@ -16,7 +16,7 @@
 using namespace std;
 int main(){
 	system("echo off & cls & title cmdplus");
-	printf("CMD PLUS [≤‚ ‘∞Ê 0.0.0.1]\n");
+	printf("CMD PLUS [’˝ Ω∞Ê 0.1.0.0]\n");
 	printf("by HTY201203 (Github.com)\n");
 	printf("follow GNU V3 eula\n");
 	return 0;

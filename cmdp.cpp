@@ -55,11 +55,14 @@ void r00004(){
 		system(e1.c_str());
 	}
 }
-void r00005(){dofilecom("save\\00003.txt");}
+void r00005(){dofilecom("save\\00005.txt");}
 void e00000(string s){
 	cout<<"无法将'"<<s<<"'识别为应用程序、快捷启动、\n代码、内部或外部命令、批处理程序";
 	cout<<"\n请检查输入是否正确，或转到项目地址\n";
-	cout<<"blank.blank.hty.com\\cmdplus.php\n";
+	cout<<"https://github.com/hty201203/cmdplus \n";
+}
+void r00all(string s){
+	dofilecom(s);
 }
 void normrun(){
 	string s;
@@ -71,6 +74,7 @@ void normrun(){
 	else if(s=="exe") r00003();
 	else if(s=="sys") r00004();
 	else if(s=="cls") r00005();
+	else if(s=="about") r00all("save\\00006.txt");
 	else e00000(s);
 }
 int main(){
