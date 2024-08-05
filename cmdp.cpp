@@ -75,12 +75,16 @@ void normrun(){
 	else if(s=="sys") r00004();
 	else if(s=="cls") r00005();
 	else if(s=="about") r00all("save\\00006.txt");
+	else if(s=="vol") r00all("save\\00007.txt");
+	else if(s=="dir") r00all("save\\00008.txt");
+	else if(s=="dir-saopan") r00all("save\\00009.txt");
 	else e00000(s);
 }
 int main(){
-	r00000();
-	//printf("[W]beya ver! not safe!\n");
-	printf("紧急更新版本！！！\n");
+	//r00000();
+	system("func\\start\\starttitle2");
+	printf("[W]beya ver! not safe!\n");
+	//printf("紧急更新版本！！！\n");
 	cout<<"https://github.com/hty201203/cmdplus \n";
 	while(1>0){
 		normrun();
