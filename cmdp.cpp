@@ -79,7 +79,9 @@ void normrun(){
 }
 int main(){
 	r00000();
-	printf("[W]beya ver! not safe!\n");
+	//printf("[W]beya ver! not safe!\n");
+	printf("½ô¼±¸üÐÂ°æ±¾£¡£¡£¡\n");
+	cout<<"https://github.com/hty201203/cmdplus \n";
 	while(1>0){
 		normrun();
 	}
