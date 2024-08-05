@@ -1,0 +1,4 @@
+3
+echo CMDP help system
+echo ================
+func\cmdp_help\cmdp_help.exe
