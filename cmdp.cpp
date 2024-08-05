@@ -55,6 +55,7 @@ void r00004(){
 		system(e1.c_str());
 	}
 }
+void r00005(){dofilecom("save\\00003.txt");}
 void e00000(string s){
 	cout<<"无法将'"<<s<<"'识别为应用程序、快捷启动、\n代码、内部或外部命令、批处理程序";
 	cout<<"\n请检查输入是否正确，或转到项目地址\n";
@@ -69,6 +70,7 @@ void normrun(){
 	else if(s=="reload") r00000();
 	else if(s=="exe") r00003();
 	else if(s=="sys") r00004();
+	else if(s=="cls") r00005();
 	else e00000(s);
 }
 int main(){

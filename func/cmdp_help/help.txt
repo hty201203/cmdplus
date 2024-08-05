@@ -4,3 +4,4 @@ reload   重新加载cmdp
 exe      运行exe/目录内的文件
 sys      运行cmdp目录的文件（可执行部分不含空格的系统命令）
 help     全部命令的帮助
+cls      清屏
