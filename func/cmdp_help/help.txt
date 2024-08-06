@@ -6,7 +6,10 @@ sys      运行cmdp目录的文件（可执行部分不含空格的系统命令）
 help     全部命令的帮助
 cls      清屏
 about    关于cmdp
-
+vol      磁盘信息
+dir      文件目录
+cat      输出文件内容
+ps       打开powershell
 
 
 

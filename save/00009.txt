@@ -1,2 +1,2 @@
 1
-dir\s
+dir /s

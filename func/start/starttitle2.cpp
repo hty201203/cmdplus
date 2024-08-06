@@ -21,7 +21,7 @@ int main(){
 	v1 = 0;
 	v2 = 1;
 	v3 = 0;
-	v4 = 1;
+	v4 = 2;
 	cout<<"CMD PLUS [";
 	if(beta) cout<<"beta°æ ";
 	else cout<<"ÕıÊ½°æ ";

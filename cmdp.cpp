@@ -78,6 +78,8 @@ void normrun(){
 	else if(s=="vol") r00all("save\\00007.txt");
 	else if(s=="dir") r00all("save\\00008.txt");
 	else if(s=="dir-saopan") r00all("save\\00009.txt");
+	else if(s=="cat") r00all("save\\00010.txt");
+	else if(s=="ps") r00all("save\\00011.txt");
 	else e00000(s);
 }
 int main(){
@@ -86,6 +88,7 @@ int main(){
 	printf("[W]beya ver! not safe!\n");
 	//printf("紧急更新版本！！！\n");
 	cout<<"https://github.com/hty201203/cmdplus \n";
+	cout<<"welcome to use cmdp!\ngithub可使用steamcommunity302免登录免费加速访问\n";
 	while(1>0){
 		normrun();
 	}

@@ -1,0 +1,3 @@
+2
+echo ======cat file======
+func\cat\cat.exe
